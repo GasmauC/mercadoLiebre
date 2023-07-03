@@ -2,7 +2,7 @@
 ---
 ## Integrante: Cane Gastón Mauricio
 ---
-### Descripcíon: Agregando EStilos al Header y al Footer
+### Descripcíon: Agregando iconos y estilos al Header y al Footer
 ---
 ![](./maquetacion/Document.png)
 
