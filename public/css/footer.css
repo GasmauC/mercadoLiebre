@@ -1,0 +1,22 @@
+.home__footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.home__footer__div i{
+    font-size: 2em;
+    text-align:center;
+    color: var(--colorAzul);
+}
+.home__footer h4,p{
+    color: var(--colorGrisOscuro);
+    
+
+}
+article{
+    margin-bottom: 50px;
+}
+section h5{
+    font-family: var(--tipografiaGeneral);
+    color:var(--colorGrisOscuro);
+}

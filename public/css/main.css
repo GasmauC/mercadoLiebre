@@ -1,0 +1,12 @@
+h2.main__section--h2{
+    font-family: var(--tipografiaGeneral);
+    font-size: 24px;
+}
+main article h5.main__article--precio{
+    font-family: var(--tipografiaGeneral);
+    font-size: 18px;
+}
+main article h5.main__article--descuento{
+    font-family: var(--tipografiaGeneral);
+    font-size: 16px;
+}

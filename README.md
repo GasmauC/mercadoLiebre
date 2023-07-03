@@ -2,4 +2,10 @@
 ---
 ## Integrante: Cane Gastón Mauricio
 ---
-### Descripcíon: Hacer una estructura web en HTML y Levantar un servidor con EXPRESS
+### Descripcíon: Agregando EStilos al Header y al Footer
+---
+![](./maquetacion/Document.png)
+
+
+
+

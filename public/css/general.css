@@ -1,0 +1,35 @@
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+:root{
+    --colorAmarillo:#EAC926;
+    --colorAzul:#03264c;
+    --colorCeleste:#1259c3;
+    --colorGrisClaro:#ebebeb;
+    --colorVerde:#39b54a;
+    --colorGrisOscuro:#666;
+    --tipografiaGeneral:Roboto, sans-serif;
+    --cuerpoDeTexto:12px;
+    --titulares:24px;
+    --precios:18px;
+    --descuentos:16px;
+    --descripciones:16px;
+}
+
+a{
+    text-decoration: none;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}   
+p,li{
+    font-size: var(--cuerpoDeTexto);
+    font-family: var(--tipografiaGeneral);
+}
+h4{
+    font-size: 18px;
+    font-family: var(--tipografiaGeneral);
+}
