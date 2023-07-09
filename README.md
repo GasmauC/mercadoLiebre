@@ -2,9 +2,9 @@
 ---
 ## Integrante: Cane Gastón Mauricio
 ---
-### Descripcíon: Agregando iconos y estilos al Header y al Footer
+### Descripcíon: Agregando funciones de media query, usando el concepto de mobile first
 ---
-![](./maquetacion/Document.png)
+
 
 
 
