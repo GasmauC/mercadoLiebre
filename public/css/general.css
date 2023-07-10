@@ -24,7 +24,9 @@ a{
 *{
     box-sizing: border-box;
     margin: 0;
-}   
+}
+
+   
 p,li{
     font-size: var(--cuerpoDeTexto);
     font-family: var(--tipografiaGeneral);
