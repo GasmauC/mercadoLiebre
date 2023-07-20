@@ -1,16 +1,25 @@
 header{
     background-color: var(--colorAmarillo);
     padding:10px 0 10px;
-    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.home__header--caja{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    justify-content: space-between;
 }
 
 /*LOGO*/
 .home__img{
-    width: 150px;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-bottom: 15px;
-    margin-left:0px
+    width: 45%;
+    /* height: 55%; */
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left:0px;
+}
+.home__img img{
 }
 
 /*NAVEGADOR*/
@@ -20,25 +29,48 @@ header{
  
 
 .home__nav{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     font-size: 12px;
     font-family: var(--tipografiaGeneral);
     font-weight: bold;
-    
+    width: 39vw;
+    margin-right: 35px;
 }
 
 header nav .home__header_nav--inp{
-    padding-left: 30px;
-    
+    /* padding-left: 30px; */
+    position: relative;
+    padding-top: 15px;
+    /* display: inline; */
+    /* position: relative; */
+    /* top: -95px; */
+    /* left: 180px; */
+}
+.home__header_nav--inp form{
+    /* width: 50%; */
+}
+form input{
+    width: 45vw;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
 nav div  form button{
-    display: block;
-    margin-left: 0px;
-    margin-top: 1px;
-    padding: 1px;;
+    /* display: block; */
+    /* margin-left: 0px; */
+    /* margin-top: 1px; */
+    /* padding: 1px; */
+    position: absolute;
+    left: 135px;
+    top: 25px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
 }
-div .home__header__nav--p{
+.home__header__nav--hand p{
     color:black;
-    margin-left: auto;
+    margin-left: 50px;
 }
 .home__header__nav--a a{
     color:black;
@@ -46,10 +78,8 @@ div .home__header__nav--p{
 }
 .home__header__nav--hand{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 15px;
-   
-    
 }
 .home__header__nav--a ul{
     padding: 0;
@@ -84,6 +114,7 @@ ul.home__header__nav--shopping{
     .home__header__nav--shopping{
         display: none;
     }
+    
 
 
 }
@@ -91,4 +122,262 @@ ul.home__header__nav--shopping{
     header .burger-menu{
         display: none;
     }
+    .home__header--caja{
+        display: flex;
+        /* flex-wrap: nowrap; */
+        /* gap: 20px; */
+        /* justify-content: space-between; */
+    }
+    
+    /*LOGO*/
+    .home__img{
+        width: 35%;
+        height: auto;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin-left:0px;
+    }
+    .home__img img{
+    }
+    
+    /*NAVEGADOR*/
+    .header__nav, li{
+        list-style: none;
+    }
+     
+    
+    .home__nav{
+        /* flex-wrap: nowrap; */
+        font-size: 12px;
+        font-family: var(--tipografiaGeneral);
+        font-weight: bold;
+        width: 20vh;
+        margin-right: 35px;
+    }
+    
+    header nav .home__header_nav--inp{
+        position: relative;
+    }
+    .home__header_nav--inp form{
+        /* width: 50%; */
+    }
+    form input{
+        width: 120%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    nav div  form button{
+        /* display: block; */
+        /* margin-left: 0px; */
+        /* margin-top: 1px; */
+        /* padding: 1px; */
+        position: absolute;
+        left: 195px;
+        top: 17px;
+        border: 0.5px solid gray;
+        background-color: #ffffff;
+        font-size: 16px;
+    }
+    .home__header__nav--hand p{
+        color:black;
+        width: 100%;
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+    .home__header__nav--a a{
+        color:black;
+        padding-left:5px
+    }
+    .home__header__nav--hand{
+        /* text-align: center; */
+        display: flex;
+        /* justify-content: flex-start; */
+        /* margin-top: 15px; */
+        /* margin-bottom: 15px; */
+        /* text-align: center; */
+        padding-right: 10px;
+    }
+    .home__header__nav--a ul{
+        padding: 0;
+    }
+    ul.home__header__nav--shopping{
+    /* display: flex; */
+    padding-right: 1;
+    /* justify-content: space-between; */
+    }
+    
+    /*Menu Hamburgesa*/
+    .burger-menu{
+        width: 40px;
+        height: 35px;
+        background-color: var(--colorCeleste);
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .burger-menu i{
+        margin-top: 7px;
+        color: white;
+        font-size: 20px;
+    }
+   
+}
+
+/*Desktop*/
+
+@media(min-width:1024px){
+    header .burger-menu{
+        display: none;
+    }
+    .home__header--caja{
+        display: flex;
+        /* flex-wrap: nowrap; */
+        /* gap: 20px; */
+        /* justify-content: space-between; */
+    }
+    
+    /*LOGO*/
+    .home__img{
+        width: 35%;
+        height: auto;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin-left:0px;
+    }
+    .home__img img{
+    }
+    
+    /*NAVEGADOR*/
+    .header__nav, li{
+        list-style: none;
+    }
+     
+    
+    .home__nav{
+        /* flex-wrap: nowrap; */
+        font-size: 12px;
+        font-family: var(--tipografiaGeneral);
+        font-weight: bold;
+        width: 25vh;
+        margin-right: 35px;
+    }
+    
+    header nav .home__header_nav--inp{
+        position: relative;
+    }
+    .home__header_nav--inp form{
+        /* width: 50%; */
+    }
+    form input{
+        width: 120%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    nav div  form button{
+        /* display: block; */
+        /* margin-left: 0px; */
+        /* margin-top: 1px; */
+        /* padding: 1px; */
+        position: absolute;
+        left: 330px;
+        top: 17px;
+        border: 0.5px solid gray;
+        background-color: #ffffff;
+        font-size: 16px;
+    }
+    .home__header__nav--hand p{
+        color:black;
+        width: 100%;
+        /* margin-left: 50px; */
+        text-align: center;
+    }
+    .home__header__nav--a a{
+        color:black;
+        padding-left:5px
+    }
+    .home__header__nav--hand{
+        /* text-align: center; */
+        display: flex;
+        /* justify-content: flex-start; */
+        /* margin-top: 15px; */
+        /* margin-bottom: 15px; */
+        /* text-align: center; */
+        padding-right: 25px;
+    }
+    .home__header__nav--a ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 40px;
+    }
+    ul.home__header__nav--shopping{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /*Menu Hamburgesa*/
+    .burger-menu{
+        width: 40px;
+        height: 35px;
+        background-color: var(--colorCeleste);
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .burger-menu i{
+        margin-top: 7px;
+        color: white;
+        font-size: 20px;
+    }
+    .home__header__nav--a{
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .home__header__nav--a{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home__header__nav--ofertas,
+       .home__header__nav--shopping {
+       flex: 1;
+       display: flex;
+       list-style: none;
+       padding: 0;
+   }
+   .home__header__nav--ofertas{
+       margin-top:10px ;
+   }
+   .home__header__nav--shopping {
+       margin-left: 30%;
+}
+      
+}
+@media (min-width:761px) {
+     .home__header__nav--a{
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .home__header__nav--a{
+        display: flex;
+        justify-content: space-between;
+    }
+    .home__header__nav--ofertas,
+       .home__header__nav--shopping {
+       flex: 1;
+       display: flex;
+       list-style: none;
+       padding: 0;
+   }
+   .home__header__nav--ofertas{
+       margin-top:10px ;
+   }
+   .home__header__nav--shopping {
+       margin-left: 30%;
+}
 }
