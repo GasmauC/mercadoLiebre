@@ -2,7 +2,7 @@
 ---
 ## Integrante: Cane Gastón Mauricio
 ---
-### Descripcíon: Agregando funciones de Flexbox.
+### Descripcíon: Agregando Animaciones.
 ---
 
 
