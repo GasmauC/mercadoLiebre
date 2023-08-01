@@ -28,13 +28,20 @@ h2.main__section--h2{
 }
 
 .article-box{
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
-    border-top: 1px solid #ebebeb;
-    position: relative;
-    padding: 10px;
-    gap: 10px;
+    
+display: flex;
+    
+flex-wrap: wrap;
+    
+/* align-items: center; */
+    
+border-top: 1px solid #ebebeb;
+    
+position: relative;
+    
+padding: 10px;
+    
+gap: 10px;
 }
 
 .article-box i{
@@ -68,15 +75,11 @@ order: 4;
 main section .main__section__article{
     background-color: #ffffff;
 }
-
-
-/*main section article i{
-    display: inline-block;
-    border: 1px solid green;
-    border-radius: 50%;
-    padding: 0.5em;
-
-   }*/
+@media(min-width:361){
+.main__section__article h3{
+    display: none;
+ }
+}
    @media(min-width:761px){
     main section .main__section__article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);

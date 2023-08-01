@@ -118,7 +118,7 @@ ul.home__header__nav--shopping{
 
 
 }
-@media(min-width:361px){
+@media(min-width:362px){
     header .burger-menu{
         display: none;
     }
@@ -173,9 +173,9 @@ ul.home__header__nav--shopping{
         /* margin-top: 1px; */
         /* padding: 1px; */
         position: absolute;
-        left: 195px;
-        top: 17px;
-        border: 0.5px solid gray;
+        left: 165px;
+        top: 18px;
+        /* border: 0.5px solid gray; */
         background-color: #ffffff;
         font-size: 16px;
     }
