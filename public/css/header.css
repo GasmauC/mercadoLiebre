@@ -19,8 +19,7 @@ header{
     padding-left: 15px;
     margin-left:0px;
 }
-.home__img img{
-}
+
 
 /*NAVEGADOR*/
 .header__nav, li{
@@ -47,9 +46,9 @@ header nav .home__header_nav--inp{
     /* top: -95px; */
     /* left: 180px; */
 }
-.home__header_nav--inp form{
-    /* width: 50%; */
-}
+
+   
+
 form input{
     width: 45vw;
     padding: 10px;
@@ -138,8 +137,7 @@ ul.home__header__nav--shopping{
         padding-left: 15px;
         margin-left:0px;
     }
-    .home__img img{
-    }
+   
     
     /*NAVEGADOR*/
     .header__nav, li{
@@ -159,8 +157,7 @@ ul.home__header__nav--shopping{
     header nav .home__header_nav--inp{
         position: relative;
     }
-    .home__header_nav--inp form{
-        /* width: 50%; */
+    
     }
     form input{
         width: 120%;
@@ -225,7 +222,7 @@ ul.home__header__nav--shopping{
         font-size: 20px;
     }
    
-}
+
 
 /*Desktop*/
 
@@ -248,8 +245,7 @@ ul.home__header__nav--shopping{
         padding-left: 15px;
         margin-left:0px;
     }
-    .home__img img{
-    }
+    
     
     /*NAVEGADOR*/
     .header__nav, li{
@@ -269,9 +265,7 @@ ul.home__header__nav--shopping{
     header nav .home__header_nav--inp{
         position: relative;
     }
-    .home__header_nav--inp form{
-        /* width: 50%; */
-    }
+    
     form input{
         width: 120%;
         padding: 5px;
