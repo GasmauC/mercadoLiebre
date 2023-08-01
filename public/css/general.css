@@ -37,3 +37,13 @@ h4{
     font-size: 18px;
     font-family: var(--tipografiaGeneral);
 }
+.main__article--descuento{
+    color: var(--colorVerde);
+    font-size: var(--descuentos);
+    font-family: var(--tipografiaGeneral);
+}
+.main__article--precio{
+    font-size: var(--precios);
+    font-family: var(--tipografiaGeneral);
+
+}
